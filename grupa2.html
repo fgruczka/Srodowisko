@@ -12,7 +12,8 @@
 	
 		
 		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * -->
-		<section id="wstep">
+
+		<a name="wstep"><section id="wstep"></a>
 			<h1>Wstęp do HTML</h1>
 			
 			TO_DO: wprowadz kilka akapitow z krotkim opisem do czego służy HTML, 
@@ -23,9 +24,8 @@
 		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * -->
 		<section id="formatowanie">
 			<h1>Formatowanie</h1>
-			
-			TO_DO: wprowadz przykładowe akapity z tekstem pogrubienym, pochylonym i podkreśleniem, 
-			dodaj rozne rozmiary, kolory i typy czcionki.
+			<p><b>Informatyka</b>  – dyscyplina nauki zaliczana do nauk ścisłych oraz techniki zajmująca się przetwarzaniem <font size="40">informacji</font>, w tym również<i>  <font size="40">technologiami</font></i>  przetwarzania informacji oraz technologiami wytwarzania systemów przetwarzających informacje. Początkowo stanowiła część matematyki, później rozwinęła się do odrębnej dyscypliny – pozostaje jednak nadal w ścisłej relacji z matematyką, która dostarcza informatyce podstaw teoretycznych.</p>
+			<p><font color="fuchsia"><b>Pokémon Go</b> – gra miejska należąca do gatunku komputerowych gier fabularnych, korzystająca z technologii rzeczywistości rozszerzonej, stworzona przez firmę Niantic i wydana w lipcu 2016 roku.</font>  </p>
 			
 		</section>
 		
@@ -43,9 +43,51 @@
 		<section id="wypunktowanie">
 			<h1>Wypunktowanie</h1>
 			
+<<<<<<< HEAD
 			TO_DO: wprowadz przykładowe listy wypunktowane, uzyj roznych formatow wypunktowania.
 			Dodaj zagniezdzone listy.
 			
+=======
+			<ul>
+			
+					<li>Pierwszy podpunkt</li>
+					<ul>
+						<li>CSS</li>
+						<ul>
+							<li>JavaScript</li>
+						</ul>
+					</ul>
+					<li>Drugi podpunkt
+						<ul>
+							<li>HTML 1</li>
+							<ul>
+							<li>HTML 2</li>
+							<li>HTML 3</li>
+							</ul>
+						</ul>
+					</li>
+				
+					<li>Kolejne podpunktowania</li>
+						<ul>
+							<li>Zagniezdzenie pierwsze</li>
+							<ul>
+								<li>Podpunkt podpunktu</li>
+								<li>Zagniezdzenie zagniezdzenia</li>
+							</ul>
+						</ul>
+					</ul>  	
+					<ul>
+						<li>Kolejne podpunkty</li>
+						<ul>
+							<li>I kolejne</li>
+							<ul>
+								<li>zagniezdzenia</li>
+							</ul>
+						</ul>
+			
+			</ul>			
+
+>>>>>>> d681a82ae36dbbacb7b9e1fec95219f29d20f404
 		</section>
 		
 		
@@ -53,8 +95,32 @@
 		<section id="tabelka">
 			<h1>Tabela</h1>
 			
-			TO_DO: wprowadz przykładowa tabela z trzema wierszami i czterema kolumnami
-			Ustaw rozne tla dla komorek.
+			<table border style="height: 200px; width: 60%; ">
+				<tr style="text-align: center; ">
+					<th style="background-color: red" >moja</th>
+					<th style="background-color: green">tabelka</th>
+					<th style="background-color: yellow">jest</th>
+					<th style="background-color: navy">super</th>
+				</tr>
+				<tr style="text-align: center; ">
+					<td style="background-color: purple">taka</th>
+					<td style="background-color: brown">kolorowa</th>
+					<td style="background-color: grey">bardzo</th>
+					<td style="background-color: crimson">jest</th>
+				</tr>
+				<tr style="text-align: center; ">
+					<td style="background-color: orange">cos1</th>
+					<td style="background-color: blue">cos2</th>
+					<td style="background-color: pink">cos3</th>
+					<td style="background-color: olive">cos4</th>
+				</tr>
+				<tr style="text-align: center; ">
+					<td style="background-color: cyan">polecam</th>
+					<td style="background-color: beige">sie</th>
+					<td style="background-color: violet">na</th>
+					<td style="background-color: silver">przyszlosc</th>
+				</tr>
+			</table>
 			
 		</section>
 		
@@ -62,19 +128,23 @@
 		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * -->
 		<section id="linki">
 			<h1>Linki</h1>
-			
-			TO_DO: dodaj linki do 
-			(a) podstrony grupa1.html, 
-			(b) adresu internetowego https://inf.ug.edu.pl, 
-			(c) etykiety "wstep" (link powinien przesuwac strone na poczatek)
-			(d) do adresu pocztowego poczta@inf.ug.edu.pl
+				
+			<body link=crimson vlink=olive alink=maroon>
+			<a href="./grupa1.html">Przejscie do drugiej grupy</a></br>
+			<a href="https://inf.ug.edu.pl">Link do ulubionej strony internetowej</a></br>
+			<a href="#wstep">Odsylacz do etykiety</a></br>
+			<a href="mailto:poczta@inf.ug.edu.pl">Link do adresu pocztowego</a></body>
 			
 		</section>
 		
 		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * -->
 		<section id="obrazki">
 			<h1>Obrazki</h1>
-			
+		<center><img src="/home/studinf/skondratowicz/Dokumenty/SP/Srodowisko/spiacy_kot_klawiatura.jpg" alt="spiacy_kot" /></center>			
+			<img src="/home/studinf/skondratowicz/Dokumenty/SP/Srodowisko/58579261.jpg" style="float:right; margin:6px" /> 
+
+
+
 			TO_DO: dodać kilka obrazkow w tym: jeden wycentrowany, 
 			jeden otoczony tekstem z prawej, inny z lewej, z ramka, bez ramki
 			z opisem alt/title.
