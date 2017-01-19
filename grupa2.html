@@ -12,7 +12,8 @@
 	
 		
 		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * -->
-		<section id="wstep">
+
+		<a name="wstep"><section id="wstep"></a>
 			<h1>Wstęp do HTML</h1>
 			
 			TO_DO: wprowadz kilka akapitow z krotkim opisem do czego służy HTML, 
@@ -23,9 +24,8 @@
 		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * -->
 		<section id="formatowanie">
 			<h1>Formatowanie</h1>
-			
-			TO_DO: wprowadz przykładowe akapity z tekstem pogrubienym, pochylonym i podkreśleniem, 
-			dodaj rozne rozmiary, kolory i typy czcionki.
+			<p><b>Informatyka</b>  – dyscyplina nauki zaliczana do nauk ścisłych oraz techniki zajmująca się przetwarzaniem <font size="40">informacji</font>, w tym również<i>  <font size="40">technologiami</font></i>  przetwarzania informacji oraz technologiami wytwarzania systemów przetwarzających informacje. Początkowo stanowiła część matematyki, później rozwinęła się do odrębnej dyscypliny – pozostaje jednak nadal w ścisłej relacji z matematyką, która dostarcza informatyce podstaw teoretycznych.</p>
+			<p><font color="fuchsia"><b>Pokémon Go</b> – gra miejska należąca do gatunku komputerowych gier fabularnych, korzystająca z technologii rzeczywistości rozszerzonej, stworzona przez firmę Niantic i wydana w lipcu 2016 roku.</font>  </p>
 			
 		</section>
 		
@@ -43,9 +43,51 @@
 		<section id="wypunktowanie">
 			<h1>Wypunktowanie</h1>
 			
+<<<<<<< HEAD
 			TO_DO: wprowadz przykładowe listy wypunktowane, uzyj roznych formatow wypunktowania.
 			Dodaj zagniezdzone listy.
 			
+=======
+			<ul>
+			
+					<li>Pierwszy podpunkt</li>
+					<ul>
+						<li>CSS</li>
+						<ul>
+							<li>JavaScript</li>
+						</ul>
+					</ul>
+					<li>Drugi podpunkt
+						<ul>
+							<li>HTML 1</li>
+							<ul>
+							<li>HTML 2</li>
+							<li>HTML 3</li>
+							</ul>
+						</ul>
+					</li>
+				
+					<li>Kolejne podpunktowania</li>
+						<ul>
+							<li>Zagniezdzenie pierwsze</li>
+							<ul>
+								<li>Podpunkt podpunktu</li>
+								<li>Zagniezdzenie zagniezdzenia</li>
+							</ul>
+						</ul>
+					</ul>  	
+					<ul>
+						<li>Kolejne podpunkty</li>
+						<ul>
+							<li>I kolejne</li>
+							<ul>
+								<li>zagniezdzenia</li>
+							</ul>
+						</ul>
+			
+			</ul>			
+
+>>>>>>> d681a82ae36dbbacb7b9e1fec95219f29d20f404
 		</section>
 		
 		
@@ -53,8 +95,32 @@
 		<section id="tabelka">
 			<h1>Tabela</h1>
 			
-			TO_DO: wprowadz przykładowa tabela z trzema wierszami i czterema kolumnami
-			Ustaw rozne tla dla komorek.
+			<table border style="height: 200px; width: 60%; ">
+				<tr style="text-align: center; ">
+					<th style="background-color: red" >moja</th>
+					<th style="background-color: green">tabelka</th>
+					<th style="background-color: yellow">jest</th>
+					<th style="background-color: navy">super</th>
+				</tr>
+				<tr style="text-align: center; ">
+					<td style="background-color: purple">taka</th>
+					<td style="background-color: brown">kolorowa</th>
+					<td style="background-color: grey">bardzo</th>
+					<td style="background-color: crimson">jest</th>
+				</tr>
+				<tr style="text-align: center; ">
+					<td style="background-color: orange">cos1</th>
+					<td style="background-color: blue">cos2</th>
+					<td style="background-color: pink">cos3</th>
+					<td style="background-color: olive">cos4</th>
+				</tr>
+				<tr style="text-align: center; ">
+					<td style="background-color: cyan">polecam</th>
+					<td style="background-color: beige">sie</th>
+					<td style="background-color: violet">na</th>
+					<td style="background-color: silver">przyszlosc</th>
+				</tr>
+			</table>
 			
 		</section>
 		
@@ -62,21 +128,37 @@
 		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * -->
 		<section id="linki">
 			<h1>Linki</h1>
-			
-			TO_DO: dodaj linki do 
-			(a) podstrony grupa1.html, 
-			(b) adresu internetowego https://inf.ug.edu.pl, 
-			(c) etykiety "wstep" (link powinien przesuwac strone na poczatek)
-			(d) do adresu pocztowego poczta@inf.ug.edu.pl
+				
+			<body link=crimson vlink=olive alink=maroon>
+			<a href="./grupa1.html">Przejscie do drugiej grupy</a></br>
+			<a href="https://inf.ug.edu.pl">Link do ulubionej strony internetowej</a></br>
+			<a href="#wstep">Odsylacz do etykiety</a></br>
+			<a href="mailto:poczta@inf.ug.edu.pl">Link do adresu pocztowego</a></body>
 			
 		</section>
 		
 		<!-- * * * * * * * * * * * * * * * * * * * * * * * * * -->
 		<section id="obrazki">
 			<h1>Obrazki</h1>
-			
-			TO_DO: dodać kilka obrazkow w tym: jeden wycentrowany, 
-			jeden otoczony tekstem z prawej, inny z lewej, z ramka, bez ramki
+		<center><img src="58579261.jpg" alt="spiacy_kot" /></center>			
+			<img src="kotki.jpeg" width="30%" height="30%" style="float:left; margin:6px" /> 
+			Kot domowy (Felis catus[1][2], również Felis silvestris catus lub Felis (silvestris) domesticus) – udomowiony gatunek ssaka z rzędu drapieżnych z rodziny kotowatych. Koty zostały udomowione około 9500 lat temu[3] i są obecnie najpopularniejszymi zwierzętami domowymi na świecie[4]. Gatunek prawdopodobnie pochodzi od kota nubijskiego, przy czym w Europie krzyżował się ze żbikiem. Jest uznawany za gatunek inwazyjny[5].
+<h1>Historia</h1>
+Przodkiem kota domowego jest kot nubijski – według poglądów większości współczesnych naukowców różnice pomiędzy kotem domowym i nubijskim są tak niewielkie, że należą one do tego samego podgatunku. Istnieją rozbieżności w kwestii daty udomowienia kota. Większość źródeł sugeruje lata 4000–3700 p.n.e., a miejscem, w którym miało do tego dojść, była Nubia. Istnieją jednak dowody (grób mężczyzny z kotem[6] z Cypru sprzed ok. 7500 r. p.n.e.), że domestykacja kota zaczęła się znacznie wcześniej i trwała kilka tysięcy lat, a jej miejscem był obszar Żyznego Półksiężyca. Już ok. 2000 r. p.n.e. kot był pospolicie hodowany w Egipcie. Początkowo był obiektem kultu, wiązano go z boginią Bastet, a zwłoki kotów mumifikowano. Później zaczęto wykorzystywać go do tępienia gryzoni.
+
+Wyhodowano wiele ras kota domowego, różniących się ubarwieniem, wielkością i długością włosów; współczesne wzorce niektórych starszych ras znacznie odbiegają od ich wcześniejszych cech (jak w przypadku kotów perskich czy syjamskich). Znaczna liczba kotów domowych żyje samodzielnie w miastach (w Polsce są to tzw. koty piwniczne lub dachowce).
+
+<img src="kot_sadysta.jpg" width="30%" height="30%" style="float:right; margin:6px" />
+<h1>Wiek kota</h1>
+Koty żyjące na wolności dożywają średnio do 8 lat, natomiast koty trzymane w domu osiągają wiek do 20 lat. Na długość życia wpływa szereg czynników, takich jak: płeć, styl życia czy zwyczaje. Najdłużej żyjącym kotem według Księgi rekordów Guinnessa była kotka imieniem Creme Puff (1967–2005), która przeżyła 38 lat i 3 dni[7].
+
+Małe kocięta rozwijają się szybko. Stają się w pełni samodzielne w wieku od 10 do 12 tygodni i wtedy mogą trafić do nowych właścicieli. Gdy mają około 3 miesięcy kotka przestaje się nimi interesować i zmusza je do samodzielności. W wieku około 5 miesięcy kociaki wymieniają zęby na stałe. Dzieciństwo kończy się z uzyskaniem dojrzałości płciowej. W tym okresie może pojawić się pierwsza ruja, a kot zaczyna oznaczać swoje terytorium.
+
+Wyraźne objawy starości pojawiają się zwykle po 10 roku życia: coraz częściej pojawia się kamień nazębny, osłabia się wzrok, słuch i węch, stają się powolne oraz słabe. Stare koty są bardzo wrażliwe na zmiany środowiskowe i stres.
+
+
+
+			 z ramka, bez ramki
 			z opisem alt/title.
 			
 		</section>
@@ -84,4 +166,9 @@
 	
 	</section>
 	</body>
+<<<<<<< HEAD
 </html>
+
+=======
+</html>
+>>>>>>> 4db7fb4215a67e52e41e311641faf596e5009329
